@@ -14,7 +14,9 @@ const Start: React.FC<IProps> = ({ onStart }) => {
       flexDirection="column"
       gap="60px"
     >
-      <Typography variant="h3">Begin Survey</Typography>
+      <Typography variant="h3" data-testid="start-text">
+        Begin Survey
+      </Typography>
       <Button variant="contained" onClick={onStart}>
         Start
       </Button>

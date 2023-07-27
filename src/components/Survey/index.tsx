@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { Box, Button, Checkbox, Typography } from "@mui/material";
 
 import Progress from "../Progress";
@@ -54,10 +54,6 @@ const Survey: React.FC = () => {
       return updatedAnswers;
     });
   };
-
-  useEffect(() => {
-    console.log(answers[0].answer);
-  }, [answers]);
 
   if (screen == "start") return <Start onStart={() => setScreen("survey")} />;
   if (screen == "finish") return <Finish />;
@@ -117,7 +113,7 @@ const Option: React.FC<IOptionProps> = ({
       py="10px"
       className={classes.optionContainer}
     >
-      <Typography>{option}</Typography>
+      <Typography title="option">{option}</Typography>
       <Checkbox checked={checked} onClick={onOptionSelect}></Checkbox>
     </Box>
   );
