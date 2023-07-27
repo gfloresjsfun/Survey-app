@@ -1,11 +1,9 @@
-import Start from "../components/Start";
-import Finish from "../components/Finish";
+import Survey from "../components/Survey";
 
 const SurveyPage: React.FC = () => {
   return (
     <div>
-      <Start />
-      <Finish />
+      <Survey />
     </div>
   );
 };

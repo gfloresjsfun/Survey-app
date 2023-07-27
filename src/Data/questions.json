@@ -30,16 +30,6 @@
     "correct_answer": ["H2O"]
   },
   {
-    "question": "What is the capital of France?",
-    "options": ["London", "Paris", "Berlin", "Madrid"],
-    "correct_answer": ["Paris"]
-  },
-  {
-    "question": "Which planets are part of the inner solar system?",
-    "options": ["Mars", "Venus", "Mercury", "Jupiter"],
-    "correct_answer": ["Venus", "Mercury"]
-  },
-  {
     "question": "Which planet is closest to the sun?",
     "options": ["Mars", "Venus", "Mercury", "Jupiter"],
     "correct_answer": ["Mercury"]
